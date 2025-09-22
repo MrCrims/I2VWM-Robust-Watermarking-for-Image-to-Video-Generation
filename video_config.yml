@@ -1,0 +1,59 @@
+model:
+  #
+  CogVideoX:
+    resolution: '480p'
+    guidance_scale: 5.0
+    inference_steps: 50
+    fps: 8
+    quality: 10
+  #
+  Wan:
+    resolution: '480p'
+    guidance_scale: 5.0
+    inference_steps: 50
+    fps: 8
+    quality: 10
+  #
+  Hunyuan:
+    resolution: '480p'
+    guidance_scale: 5.0
+    inference_steps: 50
+    fps: 8
+    quality: 10
+  #
+  Framepack:
+    resolution: '480p'
+    guidance_scale: 5.0
+    inference_steps: 50
+    fps: 8
+    quality: 10
+  #
+  I2VGen:
+    resolution: '480p'
+    guidance_scale: 5.0
+    inference_steps: 50
+    fps: 8
+    quality: 10
+  #
+  VideoCrafter:
+    resolution: '480p'
+    guidance_scale: 5.0
+    inference_steps: 50
+    fps: 8
+    quality: 10
+  #
+  SVD:
+    resolution: '480p'
+    guidance_scale: 5.0
+    inference_steps: 50
+    fps: 8
+    quality: 10
+  Choice:
+    names: ['CogVideoX', 'Wan', 'Hunyuan', 'SVD']
+    # names: ['CogVideoX', 'Wan', 'Hunyuan']
+    # names: ['CogVideoX', 'Wan']
+    # names: ['CogVideoX', 'SVD']
+    # names: ['I2VGen', 'SVD']
+    # names: ['SVD']
+    # names: ['Wan']
+    # names: ['Hunyuan']

@@ -1,0 +1,33 @@
+# [arxiv] I2VWM: Robust Watermarking for Image to Video Generation
+Official implementation of [I2VWM: Robust Watermarking for Image to Video Generation]().
+
+
+
+1. Download the [data](https://drive.google.com/drive/folders/1QD9JIJLumOGtbDpGwsl2EJ7HIFixn37D?usp=drive_link) and put them into the data dir `./data`. Download the [checkpoinits](https://drive.google.com/drive/folders/1DqUIDm-GtGmGxQcZct1bMV5fizTG4fdI?usp=drive_link) and put them into the data dir `./checkpoinits`.
+
+2. Test classic noise
+
+```
+python test_tradition_noise.py --ckpt ./checkponits --datapath data/DIV2K_valid_HR --message 32 
+```
+
+3. Test I2V. 
+
+
+```
+python test_I2V.py --ckpt ./checkpoints  --datapath data/DIV2K_valid_HR --message 32 --mode encode --seed 42
+
+python test_I2V.py --datapath "resluts of encode image usually in "Validation Results"" --mode I2V --test_num 10 --seed 58
+
+python test_I2V.py --datapath "resluts of encode image usually in "Validation Results"" --message 32 --mode decode
+```
+
+
+## Acknowledgements
+This code builds on the code from the [diffusers](https://github.com/huggingface/diffusers) library, [Watermark-Anything Model](https://github.com/facebookresearch/watermark-anything), and [TrustMark](https://github.com/adobe/trustmark). 
+
+## Cite
+If you find this repository useful, please consider giving a star ⭐ and please cite as:
+```
+
+```
