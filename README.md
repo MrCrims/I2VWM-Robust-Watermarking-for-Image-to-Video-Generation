@@ -29,5 +29,13 @@ This code builds on the code from the [diffusers](https://github.com/huggingface
 ## Cite
 If you find this repository useful, please consider giving a star ⭐ and please cite as:
 ```
-
+@misc{wang2025i2vwmrobustwatermarkingimage,
+      title={I2VWM: Robust Watermarking for Image to Video Generation}, 
+      author={Guanjie Wang and Zehua Ma and Han Fang and Weiming Zhang},
+      year={2025},
+      eprint={2509.17773},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.17773}, 
+}
 ```
