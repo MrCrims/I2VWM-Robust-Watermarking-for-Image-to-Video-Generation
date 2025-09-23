@@ -1,5 +1,5 @@
 # [arxiv] I2VWM: Robust Watermarking for Image to Video Generation
-Official implementation of [I2VWM: Robust Watermarking for Image to Video Generation]().
+Official implementation of [I2VWM: Robust Watermarking for Image to Video Generation](https://arxiv.org/abs/2509.17773).
 
 
 
