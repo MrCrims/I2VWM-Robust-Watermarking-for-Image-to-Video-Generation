@@ -3,7 +3,7 @@ Official implementation of [I2VWM: Robust Watermarking for Image to Video Genera
 
 
 
-1. Download the [data](https://drive.google.com/drive/folders/1QD9JIJLumOGtbDpGwsl2EJ7HIFixn37D?usp=drive_link) and put them into the data dir `./data`. Download the [checkpoinits](https://drive.google.com/drive/folders/1DqUIDm-GtGmGxQcZct1bMV5fizTG4fdI?usp=drive_link) and put them into the data dir `./checkpoinits`.
+1. Download the [data](https://drive.google.com/drive/folders/1QD9JIJLumOGtbDpGwsl2EJ7HIFixn37D?usp=drive_link) and put them into the data dir `./data`. Download the [checkpoinits][(https://drive.google.com/drive/folders/1DqUIDm-GtGmGxQcZct1bMV5fizTG4fdI?usp=drive_link](https://drive.google.com/file/d/1rlm4BNoKEMn4dl8oUFJ6n5f0CIS3yxVq/view?usp=sharing)) and put them into the data dir `./checkpoinits`.
 
 2. Test classic noise
 
@@ -38,4 +38,5 @@ If you find this repository useful, please consider giving a star ⭐ and please
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2509.17773}, 
 }
+
 ```
