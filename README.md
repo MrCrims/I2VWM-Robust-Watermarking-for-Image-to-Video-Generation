@@ -1,5 +1,5 @@
-# [arxiv] I2VWM: Robust Watermarking for Image to Video Generation
-Official implementation of [I2VWM: Robust Watermarking for Image to Video Generation](https://arxiv.org/abs/2509.17773).
+# [ECCV 2026] LoT-Pass: Long-term-robust Image Watermarking for Image to Video Generation
+Official implementation of [LoT-Pass: Long-term-robust Image Watermarking for Image to Video Generation](https://arxiv.org/abs/2509.17773).
 
 
 
@@ -30,7 +30,7 @@ This code builds on the code from the [diffusers](https://github.com/huggingface
 If you find this repository useful, please consider giving a star ⭐ and please cite as:
 ```
 @misc{wang2025i2vwmrobustwatermarkingimage,
-      title={I2VWM: Robust Watermarking for Image to Video Generation}, 
+      title={LoT-Pass: Long-term-robust Image Watermarking for Image to Video Generation}, 
       author={Guanjie Wang and Zehua Ma and Han Fang and Weiming Zhang},
       year={2025},
       eprint={2509.17773},
